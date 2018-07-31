@@ -1,0 +1,682 @@
+
+body {  width: 1440px;
+		font-family: 'Roboto', sans-serif;
+		font-family: 'Open Sans', sans-serif; 
+    	text-transform: none; 
+		font-weight: bold; 
+		background-color: #6699cc;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+.container{
+	padding-top:2px;
+	width: 1440px;
+	background-color: #ff6633;
+}
+
+
+.imageContainer { 
+   width: 1440px; 
+   margin-top: 68px; 
+   
+}
+
+.imageContainer img {
+   width: 1440px; 
+   height: 108px;
+   
+ }
+.imageContainer h1 {
+   float: left;	
+   margin-top: 0px; 
+   
+   padding: 25px;
+   color: #ffffff;
+	
+}
+
+
+.clear{
+	clear: both:
+}
+
+.MenuBar {
+	position: absolute; 
+	z-index: 1; 
+	top: auto; 
+	left:30px; 
+	font-family: 'Roboto', sans-serif; 
+	font-size: 25px; 
+	font-weight: bold; 
+	
+}
+#Home {
+	position: relative;
+	z-index: 1;
+	top: 57px;
+	left:auto;
+	color:#ffffff;
+}
+
+
+#Home img {
+	position: absolute; 
+	z-index: 1; 
+	top: auto; 
+}
+#HomeEffect {
+	position: relative;
+	z-index: 2;
+	top: 55px;
+	left:10px;
+}
+#HomeEffect h3 {
+	position: absolute;
+	z-index: 2;
+	margin-top:21px;
+	text-align:left;
+	font-size: 25px; 
+	color:#000000; 
+	text-align: left;
+	left:10px;
+}
+#Home h3 {
+	position: absolute;
+	z-index: 3;
+	margin-top:22px;
+	text-align:left;
+	font-size: 25px;
+	font-weight: bold;
+	color:#ffffff;
+	left:20px;
+}
+
+#Home a {
+	
+	text-decoration: none;
+	display: block;
+}
+#Experience {
+	position: relative;
+	z-index: 1;
+	top: 150px;
+	left:auto;
+	color:#ffffff;
+}
+
+#Experience img {
+	position: absolute; 
+	z-index: 1; 
+	top: auto; 
+}
+#ExperienceEffect {
+	position: relative;
+	z-index: 2;
+	top: 148px;
+	left:auto;
+}
+#ExperienceEffect h3 {
+	position: absolute;
+	z-index: 2;
+	margin-top:21px;
+	text-align:left;
+	font-size: 25px; 
+	color:#000000; 
+	text-align: left;
+	left:20px;
+}
+#Experience h3 {
+	position: absolute;
+	z-index: 3;
+	margin-top:22px;
+	text-align:left;
+	font-size: 25px;
+	align: center;
+	font-weight: bold;
+	color:#ffffff;
+	left:20px;
+}
+
+#Experience a {
+	
+	text-decoration: none;
+	display: block;
+}
+
+#AboutMe {
+	position: relative;
+	z-index: 1;
+	top: 242px;
+	color:#ffffff;
+}
+
+#AboutMe img {
+	position: absolute; 
+	z-index: 1; 
+	top: auto; 
+}
+#AboutMeEffect {
+	position: relative;
+	z-index: 2;
+	top: 240px;
+}
+#AboutMeEffect h3 {
+	position: absolute;
+	z-index: 2;
+	margin-right:50px;
+	margin-top:21px;
+	text-align:left;
+	font-size: 25px; 
+	color:#000000; 
+	left:20px;
+}
+#AboutMe h3 {
+	position: absolute;
+	z-index: 3;
+	margin-top:22px;
+	text-align:left;
+	font-size: 25px;
+	font-weight: bold;
+	color:#ffffff;
+	left:20px;
+}
+
+#AboutMe a {
+	
+	text-decoration: none;
+	display: block;
+}
+
+#Contact {
+	position: relative;
+	z-index: 1;
+	top: 337px;
+	left:auto;
+	color:#ffffff;
+}
+
+#Contact img {
+	position: absolute; 
+	z-index: 1; 
+	top: auto; 
+}
+#ContactEffect {
+	position: relative;
+	z-index: 2;
+	top: 335px;
+	left:auto;
+}
+#ContactEffect h3 {
+	position: absolute;
+	z-index: 2;
+	margin-top:21px;
+	text-align:left;
+	font-size: 25px; 
+	color:#000000; 
+	text-align: left;
+	left:20px;
+}
+#Contact h3 {
+	position: absolute;
+	z-index: 3;
+	margin-top:22px;
+	text-align:left;
+	font-size: 25px;
+	align: center;
+	font-weight: bold;
+	color:#ffffff;
+	left:20px;
+}
+
+#Contact a {
+	
+	text-decoration: none;
+	display: block;
+}
+
+#Welcome {
+	position: absolute; 
+	z-index: 2; 
+	top: 225px; 
+	left:445px;
+	font-family: 'Roboto', sans-serif; 
+	
+}
+
+#Welcome-effect {
+	position: absolute; 
+	z-index: 1; 
+	top: 227px; 
+	left:447px;
+	font-family: 'Roboto', sans-serif; 
+	color:red;
+		
+	
+}
+
+#Welcome li {
+	font-size: 40px; 
+	font-weight: bold; 
+	color:#000000; 
+	text-align: left;
+	display:block;
+}
+
+#Welcome-effect li {
+	font-size: 40px; 
+	float: left;
+	font-weight: bold; 
+	color:#ff6633; 
+	text-align: left;
+	display:block;
+}
+
+#Content {
+	position: absolute;
+	z-index: 1;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 40px; 
+	font-weight: bold; 
+	color:#ffff66;
+	top: auto; 
+	left: 620px;
+	margin-top:10px;	
+	display:block;
+}
+
+#FeaturIcon{
+	position: absolute;
+	z-index: 3;
+	top: 640px; 
+	left: auto;
+}
+.FeaturBox{
+	position: absolute; 
+	z-index: 1; 
+	width: 280px;
+	height: 280px; 
+	top: 670px; 
+	left: auto;
+	background: #ffff00;"
+}
+
+#FeaturText {
+	position: absolute;
+	z-index: 2;
+	top: 655px; 
+	left: auto;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 18px; 
+	font-weight: bold;
+	text-align: center;
+	align: center;
+	
+}
+
+#FeaturText p {
+	
+	position:relative;
+	z-index: 5;
+	top: 80px; 
+	font-size: 18px; 
+	font-weight: bold;
+	align: center;
+	color:#000000;
+		
+}
+
+#FeaturText h2 {
+	top: 30px;
+	left:auto;
+	font-size: 25px;
+	text-align: center;
+	align: center;
+	font-weight: bold;
+}
+
+.AboutMe{
+	position: absolute;
+	z-index: 1; 
+	width: 432px;
+	height: 612px; 
+	top: 1100px; 
+	left: 510px; 
+	background: #ffff66;
+	border-radius: 15px;
+	border: 2px; solid: #000000
+}
+
+#MyPhoto {
+	position: absolute; 
+	z-index: 2; 
+	width: 360px;
+	height: 360px; 
+	top: 1130px; 
+	left: 545px; 
+	background: #ffffff;
+}
+
+#MyName {
+	z-index:3;
+	top: 1500px;
+	left: 585px;
+	font-size: 35px;
+	color:#6699cc;
+}
+
+#MyNa{
+	z-index: 4; 
+	top: 1570px; 
+	left:600px; 
+	font-size: 25px; 
+	font-weight: bold; 
+	color:#000000;
+	
+}
+
+#MyCV {
+	position: absolute;
+	z-index: 6; 
+	width: 288px;
+	height: 72px; 
+	top: 1780px; 
+	left: 580px; 
+	background: #ffff66; 
+	border-radius: 10px;
+}
+
+.MyExperience {
+	position: absolute; 
+	z-index: 1; 
+	width: 1440px;
+	height: 472px; 
+	top: 1980px;
+}
+
+#TextEx {
+	position:absolute;
+	z-index: 5;
+	top: auto; 
+	left:135px;
+	font-size: 30px; 
+	font-weight: bold;
+	align: left;
+	color:#ffffff;
+	
+}
+#Percentage {
+	position:absolute;
+	z-index: 6;
+	top: auto; 
+	left:1160px;
+	font-size: 30px; 
+	font-weight: bold;
+	align: left;
+	color:#ffffff;
+	
+}
+
+.arrow_box {
+	position: absolute;
+	z-index:8;
+	left:325px;
+	background: #ff6633;
+	border-radius: 10px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	width: auto;  height: 58px;
+}
+
+
+
+#MyEx {
+	position: absolute; 
+	z-index: 2; 
+	width: 790px;
+	height: 58px; 
+	top: auto; 
+	left: 320px; 
+	background: #ffffff; 
+	border-radius: 15px;
+	border: 5px solid #3399cc;
+}
+
+#Name {
+	position: absolute; 
+	z-index: 1; 
+	list-style: none;
+	width: 790px;
+	height: 58px; 
+	top: 2500px; 
+	left: 320px; 
+	background: #ffffff; 
+	border-radius: 15px;
+	border: 5px solid #3399cc;
+}
+
+#Name-input {
+        position: absolute; 
+		z-index: 2; 
+		width: 580px;
+		height: 28px; 
+		top: 2518px; 
+		left: 430px; 
+		background: #ffffff;
+}
+
+#Name img {
+	
+	padding:10px 720px;
+}
+
+#Name p {
+	padding-left:5px;
+	position: absolute; 
+	z-index: 3; 
+	font-size: 20px;
+}
+
+#Email {
+	position: absolute; 
+	z-index: 1; 
+	list-style: none;
+	width: 790px;
+	height: 58px; 
+	top: 2590px; 
+	left: 320px; 
+	background: #ffffff; 
+	border-radius: 15px;
+	border: 5px solid #3399cc; 
+}
+
+#Email-input {
+    position: absolute; 
+	z-index: 2; 
+	width: 580px;
+	height: 28px; 
+	top: 2608px; 
+	left: 430px; 
+	background: #ffffff;
+}
+
+#Email p {
+	padding-left:5px;
+	position: absolute; 
+	z-index: 3; 
+	font-size: 20px;
+}
+
+#Email img {
+	padding:10px 720px;
+}
+
+#Message {
+	position: absolute; 
+	z-index: 1; 
+	list-style: none;
+	width: 790px;
+	height: 450px; 
+	top: 2680px; 
+	left: 320px; 
+	background: #ffffff; 
+	border-radius: 15px;
+	border: 5px solid #3399cc; 
+	
+}
+
+#Message-input {
+        position: absolute; 
+		z-index: 2; 
+		width: 590px;
+		height: 350px; 
+		top: 2730px; 
+		left: 430px; 
+		background: #ffffff;
+}
+
+#Message p {
+	padding-left:5px;
+	position: absolute; 
+	z-index: 3; 
+	font-size: 20px;
+}
+
+#Message img {
+	padding:10px 720px;
+}
+
+#Submit {
+	position: absolute;
+	z-index: 1; 
+	width: 100px;
+	height: 45px; 
+	top: 3150px; 
+	left: 650px; 
+	background: #ffffff; 
+	border-radius: 15px;
+	border: 5px solid #3399cc;
+}
+#Submit p {
+	margin:10px;
+	align:center;
+	text-align: center;
+	position: relative; 
+	z-index: 3; 
+	font-size: 20px;
+}
+
+
+circular-image {
+	border: 2px solid #6699cc;
+	border-radius:  50%;
+}
+
+rcorners1 {
+    border-radius: 25px;
+    border: 2px solid #000000;
+	padding: 20px;
+    width: 432px;
+    height: 612px; 
+}
+
+
+h1 { 
+   position: absolute; 
+   top: 0px; 
+   left: auto; 
+   width: 100%; 
+   color: ffffff;
+   font-family: 'Open Sans' sans-serif; 
+   text-transform: none; 
+   font-weight: bold;
+}
+h1 {font-size: 30px; margin-bottom: 0px; color= "#ffffff";}
+
+
+h2,h3{
+	position: absolute; 
+    top: 0px; 
+    left: 5px; 
+    text-align: center;
+	align:center;
+	font-family: 'Roboto', sans-serif; text-transform: none; font-weight: bold; 
+	font-size: 25px; margin-bottom: 0px;
+	color: #000000;
+	}
+	
+
+h4 {text-align: center; font: italic; font-size: 40px; margin-bottom: 110px; color: #ffff66}
+
+
+
+p{
+	position: absolute; 
+    top: 0; 
+    left: 0; 
+    font-family: 'Roboto', sans-serif; text-transform: none; font-weight: bold; 
+	font-size: 14px; margin-bottom: 0px;
+	align-text: center;
+	}
+	
+#map {
+	position: absolute;
+	top: 3225px;
+	width:1440px;
+	height:440px;
+	background:yellow
+}
+#map img {
+	position: absolute;
+	left:350px;
+}
+#map p {
+	font-size:30px;
+	padding:25px;
+	left: 30px;
+}
+
+#Ftr {
+	position:absolute;
+	font-size:14px; 
+	top:3665px;
+}
+
+#Ftr p {
+	position: absolute;
+	left:660px;
+	font-size:14px;
+	
+}	
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+	
+
+
+a:link:active, a:visited:active { 
+    color: (000000);
+}
+
+
+/*generic css section ends*/
+
+
+
